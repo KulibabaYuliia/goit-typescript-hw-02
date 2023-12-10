@@ -3,7 +3,7 @@
 */
 
 interface PropInterface {
-  title: string;
+  [key: string]: string;
 }
 
 class Component<T> {
